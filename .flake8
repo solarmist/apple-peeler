@@ -1,0 +1,12 @@
+[flake8]
+docstring-style = sphinx
+extend-ignore = T100, T101, T102, SC200
+# RE: E203 https://github.com/psf/black#slices
+ignore = W503, E203
+max-annotations-complexity = 4
+max-complexity = 10
+max-line-length = 88
+per-file-ignores =
+    greenhouse/config.py:N805
+    */models.py, */schema.py, */properties.py:A003
+    */properties.py:N815,A003

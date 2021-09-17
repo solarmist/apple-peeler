@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "apple_peeler"
+version = "0.1.0"
+description = "Extract entries from the OS X dictionaries."
+authors = ["Joshua Olson <joshua+github@solarmist.net>"]
+maintainers = ["Joshua Olson <joshua+github@solarmist.net>"]
+url = "https://github.com/solarmist/apple-peeler"
+
+[tool.poetry.scripts]
+apple-peeler = "apple_peeler.extract:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+beautifulsoup4 = "^4.10.0"
+click = "^8.0.1"
+lxml = "^4.6.3"
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+capstone = "^4.0.2"
+binwalk = "^2.1.0"
+cstruct = "^1.8"
+pycryptodome = "^3.10.1"
+black = "^21.9b0"
+isort = "^5.9.3"
+flake8 = "^3.9.2"
+pre-commit = "^2.15.0"
+
+[tool.black]
+line-length = 88
+include_trailing_comma = true
