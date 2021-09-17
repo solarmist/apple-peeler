@@ -201,7 +201,7 @@ def extract_body_data(
     )
     if prettify:
         if DEBUG:
-            click.echo("Prettifying XML for {out_file.stem}", err=True)
+            click.echo(f"Prettifying XML for {outfile.stem}", err=True)
         dictionary_text = BeautifulSoup(dictionary_text, "lxml-xml").prettify()
 
     if DEBUG:
