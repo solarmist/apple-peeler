@@ -52,7 +52,7 @@ After that, useage is straightforward.
 
 ## Introduction
 
-I need a ton of dictionary data for prototyping my learning a language tool, [Parsnip](https://solarmist.net/), and licensing 40 dictionaries seems too expensive for a bootstrapper working on an MVP (I look forward to the day this is no longer true).
+I need a ton of dictionary data for prototyping my learning a language tool, [Parsnip](https://solarmist.net/), and licensing 40 dictionaries seems too expensive for a bootstrapper prototyping / working on an MVP (I look forward to the day this is no longer true). [Note: I am not planning to redistribute or otherwise use the data in an unlicensed manner.]
 
 Parsnip uses Natural Language Processing and Dictionaries to decouple the word <-> sentence tug-of-war that's existed as long as flashcards have been used for language learning. I.e., should I make a word (concept) or a sentence (example) flashcard?
 
